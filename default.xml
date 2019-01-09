@@ -20,10 +20,10 @@
   <project name="git/meta-virtualization" path="layers/meta-virtualization" remote="yocto"/>
   <project name="kraj/meta-clang" path="layers/meta-clang" remote="github"/>
   <project name="meta-qt5/meta-qt5" path="layers/meta-qt5" remote="github"/>
-  <project name="Linaro/meta-lkft" path="layers/meta-lkft" remote="github"/>
+  <project name="mrchapp/meta-lkft" path="layers/meta-lkft" remote="github" revision="d/kselftests-420+ltp"/>
   <project name="ndechesne/meta-qcom" path="layers/meta-qcom" remote="github"/>
   <project name="openembedded/bitbake" path="bitbake" remote="github" revision="1.36"/>
-  <project name="openembedded/meta-backports" path="layers/meta-backports" remote="linaro"/>
+  <project name="mrchapp/meta-backports" path="layers/meta-backports" remote="github" revision="d/kselftests-420+ltp"/>
   <project name="openembedded/meta-linaro" path="layers/meta-linaro" remote="linaro"/>
   <project name="openembedded/meta-openembedded" path="layers/meta-openembedded" remote="github"/>
   <project name="openembedded/openembedded-core" path="layers/openembedded-core" remote="github"/>
