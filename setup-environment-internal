@@ -242,7 +242,7 @@ ln -sf "${MANIFESTS}" "${OEROOT}"/layers/
 
 DISTRO_DIRNAME=$(echo "${DISTRO}" | sed 's#[.-]#_#g')
 
-function lkft_write_if_set() {
+lkft_write_if_set() {
     if [ -n "$2" ]; then
         echo "$1 = \"$2\"" >> conf/lkft-kernel.conf
     fi
